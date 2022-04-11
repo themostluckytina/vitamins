@@ -1,38 +1,123 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: whitesmoke;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  font-size: 75px;
+  letter-spacing: 7px;
+  text-shadow: 1px 1px grey;
+  font-family: 'Rubik Moonrocks', cursive;
+ 
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list{
+  background-color:  #fd9839;  
+  padding: 5px 30px ;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+}
+p{
+  font-family: 'Ubuntu', sans-serif;
+  color: #222286;
+
+ 
+}
+.bold{
+ font-size: 17px;
+ font-style: italic;
+ color: #010144;
+}
+.name{
+  color:#ff7698 ;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 25px;
+}
+.full{
+  color:#ff7698 ;
+  font-size: 20px;
+}
+.feature, .lack, .food{
+  text-decoration: underline;
+  font-size: 16px;
+
+}
+.feature{
+  color:#fa6ccd;
+}
+.lack{
+  color:#a95afd;
+}
+.food{
+  color:#04b46e;
+}
+.pic{
+  margin-top: 25px;
+}
+button{
+  background-color:  #6b6b86;  ;
+  padding: 5px 10px ;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+}
+.btn{
+  background-color: whitesmoke ;
+  color: #121270; 
+  font-size: 15px;
+  font-weight: 100;
+}
+.btn:hover{
+  color: #fd800a;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+
+
+.one{
+  color: #fdbde9 ;
 }
+.two{
+  color: #ceacf3 ;
+}
+.three{
+  color: #add8e6 ;
+}
+.four{
+  color: #fdfd7f ;
+}
+.five{
+  color: #69f7be;
+}
+.six{
+  color: #ebcacb ;
+}
+.seven{
+  color: #d3dca4 ;
+}
+.eight{
+  color: #ffbf84 ;
+}
+/*
+.left{
+  display: inline-block;
+  transform: rotate(15dg);
+}
+.right{
+
+}
+*/
+
